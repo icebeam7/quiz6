@@ -27,9 +27,21 @@ nav span {
 }
 
 body{
-  background: #000;
+  background: #333;
 }
 
 #page-wrap::after{
-  content:"Normal Layout";
+  content:"Smartphone Layout";
+}
+
+h2 span, section h3 {
+  display: none;
+}
+
+body{
+  font-size: xx-large;
+}
+
+footer, input{
+  font-size: large
 }
